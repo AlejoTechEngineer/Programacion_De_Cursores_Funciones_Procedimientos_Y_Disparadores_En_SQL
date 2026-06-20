@@ -1,23 +1,38 @@
-# 📌 Programación de Cursores, Funciones, Procedimientos y Disparadores en SQL  
+# Programación Avanzada SQL — Cursores, Funciones, Procedimientos y Triggers
 
-## 📖 Descripción  
-Este proyecto explora técnicas avanzadas en SQL para la manipulación eficiente de datos mediante el uso de cursores, funciones almacenadas, procedimientos y triggers.
+![SQL](https://img.shields.io/badge/SQL-Avanzado-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL/SQL-Procedural-FF6B35?style=for-the-badge)
+![Triggers](https://img.shields.io/badge/Triggers-Automatización-8E24AA?style=for-the-badge)
 
-## 🛠️ Funcionalidades  
-- Uso de **cursores** para recorrer conjuntos de datos.  
-- Creación de **funciones almacenadas** para encapsular lógica de negocio.  
-- Implementación de **procedimientos almacenados** para manipulación masiva de datos.  
-- Desarrollo de **disparadores (triggers)** para automatizar acciones en la base de datos.  
+> Desarrollo propio de programación procedimental en SQL: cursores, funciones almacenadas, procedimientos y disparadores para automatización de lógica de negocio.
 
-## 🚀 Tecnologías utilizadas  
-- MySQL / PostgreSQL / SQL Server  
-- Procedimientos almacenados en SQL  
-- Administración de bases de datos  
+## Descripción
 
-## ▶️ Cómo ejecutar el proyecto  
-1. Importar el archivo `script.sql` en tu motor de base de datos.  
-2. Ejecutar las consultas en un entorno compatible.  
-3. Probar las funciones, procedimientos y triggers incluidos.  
+Proyecto desarrollado por **Alejandro De Mendoza** que implementa las cuatro construcciones procedurales avanzadas de SQL para la automatización y encapsulamiento de lógica de negocio en la base de datos: **cursores** para iteración sobre resultados, **funciones almacenadas** para encapsular cálculos reutilizables, **procedimientos almacenados** para operaciones de manipulación masiva de datos, y **triggers** para automatización reactiva ante eventos DML.
 
-## 📌 Autor  
-👨‍💻 **Alejandro De Mendoza**
+## Construcciones implementadas
+
+### Cursores
+Permiten recorrer fila a fila un conjunto de resultados para procesamiento iterativo que no puede expresarse con consultas set-based.
+
+### Funciones almacenadas
+Encapsulan lógica de cálculo reutilizable (ej: cálculo de antigüedad, conversión de unidades, validaciones) devolviendo un valor escalar.
+
+### Procedimientos almacenados
+Agrupan múltiples sentencias DML/DDL con lógica de control de flujo (IF, LOOP, CASE) para operaciones transaccionales complejas.
+
+### Triggers
+Ejecutan acciones automáticamente ante eventos INSERT, UPDATE o DELETE en tablas específicas — auditoria, validaciones de negocio y sincronización de datos.
+
+## Contenido del repositorio
+
+| Archivo | Descripción |
+|---|---|
+| `laboratoriodos.sql` | Script SQL con cursores, funciones, procedimientos y triggers |
+| `CódigosDelLaboratorio.txt` | Fragmentos de código del laboratorio |
+| `Proyecto De Desarrollo*.pdf` | Informe con análisis y resultados de ejecución |
+
+## Contexto académico
+
+**Asignatura:** Bases de Datos · **Institución:** Ingeniería Informática
+**Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
