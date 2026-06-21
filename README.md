@@ -1,3 +1,5 @@
+<div align="center">
+
 # Programación Avanzada SQL — Cursores, Funciones, Procedimientos y Triggers
 
 ![SQL](https://img.shields.io/badge/SQL-Avanzado-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -7,6 +9,10 @@
 > Desarrollo propio de programación procedimental en SQL: cursores, funciones almacenadas, procedimientos y disparadores para automatización de lógica de negocio.
 
 ## Descripción
+
+</div>
+
+---
 
 Proyecto desarrollado por **Alejandro De Mendoza** que implementa las cuatro construcciones procedurales avanzadas de SQL para la automatización y encapsulamiento de lógica de negocio en la base de datos: **cursores** para iteración sobre resultados, **funciones almacenadas** para encapsular cálculos reutilizables, **procedimientos almacenados** para operaciones de manipulación masiva de datos, y **triggers** para automatización reactiva ante eventos DML.
 
@@ -36,3 +42,12 @@ Ejecutan acciones automáticamente ante eventos INSERT, UPDATE o DELETE en tabla
 
 **Asignatura:** Bases de Datos · **Institución:** Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
