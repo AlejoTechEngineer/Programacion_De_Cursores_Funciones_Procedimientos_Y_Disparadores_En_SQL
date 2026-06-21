@@ -30,6 +30,19 @@ Agrupan múltiples sentencias DML/DDL con lógica de control de flujo (IF, LOOP,
 ### Triggers
 Ejecutan acciones automáticamente ante eventos INSERT, UPDATE o DELETE en tablas específicas — auditoria, validaciones de negocio y sincronización de datos.
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[laboratoriodos.sql] --> B[CodigosDelLaboratorio.txt]
+    A --> C[Informe PDF]
+    A --> D[Cursores - Iteracion fila a fila sobre ResultSet]
+    A --> E[Funciones Almacenadas - Calculos escalares reutilizables]
+    A --> F[Procedimientos Almacenados - DML con IF/LOOP/CASE]
+    A --> G[Triggers - Automatizacion INSERT/UPDATE/DELETE]
+    D & E & F & G --> H[(MySQL 8.0 - Base de Datos)]
+```
+
 ## Contenido del repositorio
 
 | Archivo | Descripción |
@@ -44,19 +57,6 @@ Ejecutan acciones automáticamente ante eventos INSERT, UPDATE o DELETE en tabla
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[laboratoriodos.sql] --> B[CodigosDelLaboratorio.txt]
-    A --> C[Informe PDF]
-    A --> D[Cursores - Iteracion fila a fila sobre ResultSet]
-    A --> E[Funciones Almacenadas - Calculos escalares reutilizables]
-    A --> F[Procedimientos Almacenados - DML con IF/LOOP/CASE]
-    A --> G[Triggers - Automatizacion INSERT/UPDATE/DELETE]
-    D & E & F & G --> H[(MySQL 8.0 - Base de Datos)]
-```
 
 ## Autor
 
