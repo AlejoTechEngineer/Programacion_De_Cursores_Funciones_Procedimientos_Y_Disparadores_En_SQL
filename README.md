@@ -45,6 +45,19 @@ Ejecutan acciones automáticamente ante eventos INSERT, UPDATE o DELETE en tabla
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[laboratoriodos.sql] --> B[CodigosDelLaboratorio.txt]
+    A --> C[Informe PDF]
+    A --> D[Cursores - Iteracion fila a fila sobre ResultSet]
+    A --> E[Funciones Almacenadas - Calculos escalares reutilizables]
+    A --> F[Procedimientos Almacenados - DML con IF/LOOP/CASE]
+    A --> G[Triggers - Automatizacion INSERT/UPDATE/DELETE]
+    D & E & F & G --> H[(MySQL 8.0 - Base de Datos)]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
